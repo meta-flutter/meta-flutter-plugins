@@ -8,9 +8,13 @@ SECTION = "graphics"
 LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=9950fa17ba55dae6a2fff5386d065d1c"
 
+DEPENDS += "\
+    flutter-engine-${FLUTTER_RUNTIME} \
+    "
+
 SRC_URI = "git://github.com/ardera/flutter_packages.git;lfs=0;branch=main;protocol=https;destsuffix=git"
 
-SRCREV = "${AUTOSRC}"
+SRCREV = "${AUTOREV}"
 
 S = "${WORKDIR}/git"
 

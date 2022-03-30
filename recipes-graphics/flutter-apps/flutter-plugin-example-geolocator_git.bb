@@ -8,9 +8,13 @@ SECTION = "graphics"
 LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=eb51e6812edbf587a5462bf17f2692a2"
 
+DEPENDS += "\
+    flutter-engine-${FLUTTER_RUNTIME} \
+    "
+
 SRC_URI = "git://github.com/Baseflow/flutter-geolocator.git;lfs=0;branch=master;protocol=https;destsuffix=git"
 
-SRCREV = "${AUTOSRC}"
+SRCREV = "${AUTOREV}"
 
 S = "${WORKDIR}/git"
 
