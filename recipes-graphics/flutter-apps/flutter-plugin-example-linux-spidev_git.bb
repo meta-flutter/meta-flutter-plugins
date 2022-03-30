@@ -14,7 +14,7 @@ DEPENDS += "\
 
 SRC_URI = "git://github.com/ardera/flutter_packages.git;lfs=0;branch=main;protocol=https;destsuffix=git"
 
-SRCREV = "${AUTOREV}"
+SRCREV = "a3b1656eb4938fd1c892ad8c3e3a2a5e215f4290"
 
 S = "${WORKDIR}/git"
 

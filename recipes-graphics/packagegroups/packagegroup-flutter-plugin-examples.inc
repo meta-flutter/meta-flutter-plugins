@@ -3,11 +3,10 @@ DESCRIPTION = "Flutter Plugin Examples Packagegroup"
 
 inherit packagegroup
 
-RDEPENDS:${PN} = "\
+RDEPENDS_${PN} = "\
     flutter-plugin-example-battery-plus \
     flutter-plugin-example-connectivity-plus \
     flutter-plugin-example-device-info-plus \
-    flutter-plugin-example-geolocator \
     flutter-plugin-example-google-maps \
     flutter-plugin-example-google-sign-in \
     flutter-plugin-example-gpiod \
